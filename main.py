@@ -6,7 +6,7 @@ import os
 
 st.set_page_config(page_title="Deep Learning Project Dashboard", layout="wide", )
 
-st.title("📊 Deep Learning Project Dashboard")
+st.title("📊 Deep Learning Projects Dashboard")
 
 # --- Helper Function for Architecture Visualization ---
 def render_architecture_graph(architecture_data, title="Architecture"):
