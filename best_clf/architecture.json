@@ -1,0 +1,39 @@
+[
+  {
+    "name": "model",
+    "type": "Sequential"
+  },
+  {
+    "name": "model.0",
+    "type": "Linear",
+    "in_features": 19,
+    "out_features": 15
+  },
+  {
+    "name": "model.1",
+    "type": "ReLU",
+    "activation": "ReLU"
+  },
+  {
+    "name": "model.2",
+    "type": "Linear",
+    "in_features": 15,
+    "out_features": 10
+  },
+  {
+    "name": "model.3",
+    "type": "ReLU",
+    "activation": "ReLU"
+  },
+  {
+    "name": "model.4",
+    "type": "Linear",
+    "in_features": 10,
+    "out_features": 1
+  },
+  {
+    "name": "model.5",
+    "type": "Sigmoid",
+    "activation": "Sigmoid"
+  }
+]

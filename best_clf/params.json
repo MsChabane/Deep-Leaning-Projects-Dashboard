@@ -1,0 +1,8 @@
+{
+  "epochs": 20,
+  "batch_size": 32,
+  "criterion": "BCELoss",
+  "lr": 0.001,
+  "with activation in last layer": true,
+  "optimizer": "Adam"
+}

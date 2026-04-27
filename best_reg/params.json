@@ -1,0 +1,7 @@
+{
+  "epochs": 20,
+  "batch_size": 16,
+  "criterion": "MSELoss",
+  "lr": 0.001,
+  "optimizer": "Adam"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "model",
+    "type": "Sequential"
+  },
+  {
+    "name": "model.0",
+    "type": "Linear",
+    "in_features": 32,
+    "out_features": 16
+  },
+  {
+    "name": "model.1",
+    "type": "BatchNorm1d"
+  },
+  {
+    "name": "model.2",
+    "type": "ReLU",
+    "activation": "ReLU"
+  },
+  {
+    "name": "model.3",
+    "type": "Linear",
+    "in_features": 16,
+    "out_features": 8
+  },
+  {
+    "name": "model.4",
+    "type": "BatchNorm1d"
+  },
+  {
+    "name": "model.5",
+    "type": "ReLU",
+    "activation": "ReLU"
+  },
+  {
+    "name": "model.6",
+    "type": "Linear",
+    "in_features": 8,
+    "out_features": 1
+  }
+]

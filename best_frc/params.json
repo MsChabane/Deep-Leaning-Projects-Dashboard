@@ -1,0 +1,9 @@
+{
+"epochs": 50,
+  "batch_size": 64,
+  "criterion": "MSELoss",
+  "lr": 0.001,
+  "optimizer": "Adam",
+  "window size":"4 hours",
+  "step":"2 hours"
+}

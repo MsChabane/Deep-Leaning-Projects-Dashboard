@@ -1,0 +1,74 @@
+{
+    "model_type": "Autoencoder",
+    "encoder": [
+        {
+            "name": "encoder.0",
+            "type": "Linear",
+            "in_features": 30,
+            "out_features": 128
+        },
+        {
+            "name": "encoder.1",
+            "type": "ReLU",
+            "activation": "ReLU"
+        },
+        {
+            "name": "encoder.2",
+            "type": "Linear",
+            "in_features": 128,
+            "out_features": 64
+        },
+        {
+            "name": "encoder.3",
+            "type": "ReLU",
+            "activation": "ReLU"
+        },
+        {
+            "name": "encoder.4",
+            "type": "Linear",
+            "in_features": 64,
+            "out_features": 32
+        },
+        {
+            "name": "encoder.5",
+            "type": "ReLU",
+            "activation": "ReLU"
+        }
+    ],
+    "decoder": [
+        {
+            "name": "decoder.0",
+            "type": "Linear",
+            "in_features": 32,
+            "out_features": 64
+        },
+        {
+            "name": "decoder.1",
+            "type": "ReLU",
+            "activation": "ReLU"
+        },
+        {
+            "name": "decoder.2",
+            "type": "Linear",
+            "in_features": 64,
+            "out_features": 128
+        },
+        {
+            "name": "decoder.3",
+            "type": "ReLU",
+            "activation": "ReLU"
+        },
+        {
+            "name": "decoder.4",
+            "type": "Linear",
+            "in_features": 128,
+            "out_features": 30
+        },
+        {
+            "name": "decoder.5",
+            "type": "Sigmoid",
+            "activation": "Sigmoid"
+        }
+    ]
+  
+}

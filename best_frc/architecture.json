@@ -1,0 +1,21 @@
+[
+    
+        {
+            "name": "lstm",
+            "type": "LSTM",
+            "input_size": 30,
+            "hidden_size": 128,
+            "num_layers": 2,
+            "dropout": 0.2,
+            "batch_first": true,
+            "bidirectional": false,
+            "bias": true
+        },
+        {
+            "name": "fc",
+            "type": "Linear",
+            "in_features": 128,
+            "out_features": 1,
+            "bias": true
+        }
+    ]
