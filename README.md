@@ -1,5 +1,10 @@
 # Deep Learning Project Dashboard (Streamlit)
 
+## Live Demo
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://deep-leaning-dashboard.streamlit.app/)
+
+---
+
 A Streamlit web dashboard that visualizes multiple deep learning experiments (Regression, Classification, Forecasting, and Anomaly Detection).  
 The app loads pre-saved **model parameters**, **model architecture (JSON)**, and **performance plots** from local folders and renders them in a clean UI.
 
@@ -19,4 +24,3 @@ The app loads pre-saved **model parameters**, **model architecture (JSON)**, and
   - Model architecture visualization using **Graphviz**
   - Performance figures (PNG)
   - Anomaly detection results (AUC, Precision, Recall, F1, Threshold, Quantile)
-
